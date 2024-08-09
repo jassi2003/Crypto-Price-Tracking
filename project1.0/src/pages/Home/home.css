@@ -1,0 +1,153 @@
+.home-section {
+    border: 2px solid none;
+    width: 100vh;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 60vh;
+    margin-top: 12vh;
+    color: rgb(71, 57, 29);
+}
+.home-section h2 {
+    font-size: 5.5rem;
+}
+.home-section p {
+    font-size: 1.5rem;
+    margin: 30px;
+}
+.home-section form {
+    position: relative;
+}
+.home-section input {
+    width: 70vh;
+    border: none;
+    height: 5vh;
+    border-radius: 10px;
+}
+.home-section button {
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white; 
+    position: absolute;
+    width: 8vh;
+    height: 4vh;
+    right: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.crypto-table {
+    border: 2px solid none;
+    border-radius: 20px;
+    width: 150vh;
+    height: 10vh;
+    margin-left: 40vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    box-shadow: 4px 3px 10px 6px rgb(104, 88, 60);
+}
+.crypto-layout {
+    color: rgb(71, 57, 29);
+     display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns:0.5fr 2fr 1fr 1.3fr 1.5fr ; */
+}
+.crypto-layout p{
+margin-top: 20px;
+}
+#hash{
+    margin-left: 15px;
+}
+#cap{
+    margin-right: 15px;
+}
+
+
+.crypto-tablee {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 147vh;
+    height: 8vh;
+    margin-left: 40vh;
+    align-items: center;
+    display: grid;
+    grid-template-columns:1fr 1.8fr 1.5fr 1.5fr 0.5fr ;
+    text-decoration: none;
+    color: rgb(71, 57, 29);
+}
+.imgg{
+    height: 5vh;
+
+}
+.coin-class{
+  display: flex; 
+  align-items: center; 
+  gap: 5px;
+}
+
+.bg-color-1 {  background-color: #deb887; }
+.bg-color-2 {  background-color: #deb887; }
+.bg-color-3 {   background-color: #deb887; }
+.bg-color-4 {  background-color: #deb887; }
+.bg-color-5 {  background-color: #deb887; }
+.bg-color-6 {  background-color: #deb887; }
+.bg-color-7 {  background-color: #deb887; }
+.bg-color-8 {  background-color: #deb887; }
+.bg-color-9 {  background-color: #deb887; }
+.bg-color-10 { background-color: #deb887; }
+
+.crypto-tablee .green{
+    color: green;
+}
+.crypto-tablee .red{
+    color: red;
+}
+
+
+
+
+@media(max-width: 1140px){
+.home-section{
+    margin-left: 40vh;
+}
+.crypto-table{
+  width: 100vh;
+
+}
+.crypto-tablee{
+    width: 95vh;
+
+}
+
+}
+
+@media(max-width: 840px){
+    .home-section{
+        margin-left: 20vh;
+    }
+    .home-section h2{
+        font-size: 4.5rem;
+    }
+
+.crypto-table{
+margin-left: 20vh;
+}
+
+.crypto-tablee{
+    margin-left: 20vh;
+    display: grid;
+    grid-template-columns:0.7fr 1.5fr 1.2fr 1.2fr 0.2fr ;
+
+
+ 
+}
+
+
+}
