@@ -69,14 +69,19 @@ if(coinData && HistoricalData){
   </ul>
 </div>
 
-<ul>
-  <li>24 Hour High</li>
-  <li>{currency.symbol} {coinData.market_data.high_24h[currency.name].toLocaleString()} </li>
-</ul>
-<ul>
-  <li>24 Hour Low</li>
-  <li>{currency.symbol} {coinData.market_data.low_24h[currency.name].toLocaleString()} </li>
-</ul>
+<div className='divv1'>
+<div>
+  <li>24 Hour High:</li>
+</div>
+  <div>{currency.symbol} {coinData.market_data.high_24h[currency.name].toLocaleString()} </div>
+</div>
+
+<div className='divv2'>
+  <div>
+  <li>24 Hour Low:</li>
+  </div>
+  <div>{currency.symbol} {coinData.market_data.low_24h[currency.name].toLocaleString()} </div>
+</div>
      </div>
   )
 }

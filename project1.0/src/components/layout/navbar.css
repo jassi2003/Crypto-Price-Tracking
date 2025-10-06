@@ -16,15 +16,28 @@ height: 25vh;
 margin-top: 10px;
 }
 
-.navv-elements ul{
-display: flex;
-list-style: none;
-margin: 30px;
-gap: 40px;
-font-size: 1.1rem;
-padding: 10px ;
-font-family: "Roboto", sans-serif;
+.navv-elements ul {
+  display: flex;
+  list-style: none;
+  margin: 30px;
+  gap: 40px;
+  font-size: 1.1rem;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
 
+.navv-elements ul a,
+.navv-elements ul a:visited {
+  text-decoration: none;
+  color: white; /* Change this to your desired text color */
+}
+.navv-elements ul a:hover {
+  color: gray; /* Replace with your desired hover color */
+}
+
+.navv-elements ul li {
+  text-decoration: none;
+  list-style: none;
 }
 
 .navv-right{

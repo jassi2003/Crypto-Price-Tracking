@@ -42,9 +42,9 @@ switch(event.target.value){
  <div className="navv-elements">
  <ul>
  <Link to="/">  <li>Home</li>  </Link>
- <li>Features</li>
- <li>Pricing</li>
- <li>Blog</li>
+ <Link to="/features">Features</Link>
+ {/* <li>Pricing</li> */}
+ <Link to="/blog">Blog</Link>
  </ul>
  </div>
  <div className="navv-right">
@@ -53,7 +53,7 @@ switch(event.target.value){
 <option value="eur">EUR</option>
 <option value="inr">INR</option>
   </select>
-  <button className="btn">Sign Up <img src="https://static.thenounproject.com/png/143046-200.png" alt="" /></button>
+  {/* <button className="btn">Sign Up <img src="https://static.thenounproject.com/png/143046-200.png" alt="" /></button> */}
  </div>
 
 </div>
